@@ -1,12 +1,12 @@
-# revision 15878
+# revision 29630
 # category Package
 # catalog-ctan /macros/latex/contrib/amsaddr
-# catalog-date 2008-08-16 20:32:59 +0200
+# catalog-date 2013-04-03 11:32:41 +0200
 # catalog-license lppl
-# catalog-version 1.0
+# catalog-version 1.1
 Name:		texlive-amsaddr
-Version:	1.0
-Release:	2
+Version:	1.1
+Release:	1
 Summary:	Alter the position of affiliations in amsart
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/amsaddr
@@ -52,18 +52,3 @@ the front page.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
-
-
-%changelog
-* Tue Jan 03 2012 Paulo Andrade <pcpa@mandriva.com.br> 1.0-2
-+ Revision: 749168
-- Rebuild to reduce used resources
-
-* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 1.0-1
-+ Revision: 717819
-- texlive-amsaddr
-- texlive-amsaddr
-- texlive-amsaddr
-- texlive-amsaddr
-- texlive-amsaddr
-
