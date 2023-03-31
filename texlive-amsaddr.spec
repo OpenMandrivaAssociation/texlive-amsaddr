@@ -1,6 +1,6 @@
 Name:		texlive-amsaddr
 Version:	64357
-Release:	1
+Release:	2
 Summary:	Alter the position of affiliations in amsart
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/amsaddr
